@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:"extrabold";
+    src: url("./font/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2");
+}
+.nav_container{
+    background:#ffffff;
+    top:0;
+    position:sticky !important;
+    z-index:10;
+}
+.nava_child1{
+    position:relative;
+    z-index:1;
+}
+.nava_child2{
+    margin-inline: 16px;
+    margin-top:10px;
+    align-items:center;
+    grid-template-columns: minmax(0,1fr);
+    position:relative;
+    display:grid;
+}
+.nava_child3{
+    background:#ffffff;
+    align-items:center;
+    border-radius:40px;
+    padding-inline:12px;
+    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border:0.5px solid rgba(0, 0, 0, 0.08);
+    transition: margin-inline-end 200ms cubic-bezier(0.2,0,0,1);
+    display:grid;
+    color:#222222;
+    will-change: margin-inline-end;
+    contain: layout style;
+    min-height:56px;
+}
+.search_but{
+    align-items:center;
+    padding:0;
+    border:none;
+    justify-content: center;
+    margin:0;
+    background:transparent;
+     padding-inline:4px;
+    border-radius:1000px;
+    max-width:100%;
+    position:relative;
+    height:100%;
+    width:100%;
+    display:flex;
+    outline:none;
+    text-decoration:none;
+    gap:8px;
+}
+.search_icon{
+    display:grid;
+    place-items:center;
+}
+.search_text{
+    padding-left:2px;
+    text-align:center;
+    overflow:hidden;
+    max-width:100%;
+    display:grid;
+    align-items:center;
+    font-weight: 500;
+    line-height:1.125rem;
+    text-overflow: ellipsis;
+    font-family:"extrabold";
+    font-size: 14px;
+}
