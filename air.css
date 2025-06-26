@@ -79,15 +79,29 @@ body{
     font-family:"extrabold";
     font-size: 14px;
 }
-.home-service{
+.home_service{
     color: rgb(34, 34, 34);
     z-index: 9;
     position: sticky;
     top: 18px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+}
+.Experiences{
+    align-items: flex-start;
+    margin-left: 16px;
+    display: flex;
+
+}
+.home_container{
+    margin-bottom: 8px;
+    align-items: center;
+    flex-direction: column;
+    min-width: 68px;
+    display: flex;
 }
 .home-service_property{
 
-padding:16px 48px 0px 48px ;
+padding:16px 56px 0px 56px ;
 justify-content: space-between; 
 align-items: baseline;
 display: flex;
@@ -95,8 +109,11 @@ position: relative;
 }
 .home{
 display: flex;
-align-items: start;
+align-items:center;
+margin: 10px;
+
 }
+
 .home_link{
 margin-bottom: 8px;
 align-items: center;
@@ -129,7 +146,7 @@ position: relative;
     letter-spacing: -0.01em;
     color:#6A6A6A;
     display: block;
-    font-family:"extrabold";
+    font-family:"normal";
     font-weight: 600;
 
 }
@@ -139,7 +156,7 @@ position: relative;
     background: linear-gradient(357.5deg, #3e567c 1.59%, #3a5475 21.23%, #2d3c5b 58.6%, #809dc0 97.4%);;
     border-radius:10px 10px 10px 2px; 
     color:#FFFFFF;
-    font-family:"extrabold";
+    font-family:"normal";
  
 }
 .hero_1{
@@ -156,7 +173,7 @@ display: grid;
 }
 .text1{
   font-weight: 600;  
-  font-family: "extrabold";
+  font-family: "normal";
   font-size:1.125rem ;
   line-height: 1.5rem;
   letter-spacing: -0.01125rem;
@@ -273,6 +290,7 @@ align-items: center;
 width:32px ;
 height: 32px;
 display: flex;
+
 }
 .love_img_property{
 font-size: 16px;
@@ -283,8 +301,12 @@ padding: 2px 0 0;
 margin: -2px 0 0;
 display: inline-flex;
 border-radius: 50%;
+border: none;
+background-color: transparent;
+stroke: #ffffff;
 
 }
+
 .love_img_property.svg{
     display: block;
      height: 24px;
@@ -314,5 +336,24 @@ position: relative;
     font-family:"normal" ;
 
 }
-.rate_text{}
+
+
+.star{
+ 
+    align-items: center;
+    display:inline-flex;
+   
+
+}
+.star.svg{
+    
+    color: #6A6A6A;
+    display: block;
+    height: 8px;
+    width: 8px;
+
+
+}
+
+
     
