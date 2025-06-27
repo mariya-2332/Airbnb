@@ -28,24 +28,25 @@
     </div>
     <div class="home_service">
       <div class="home-service_property">
-        <div class="home_container">
-          <span class="home">
-            <!-- <video class="home_video" playsinline=""
-              poster="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/a32adab1-f9df-47e1-a411-bdff91b579c3.png?im_w=240"
-              preload="auto" autoplay muted>
-              <source src="https://a0.muscache.com/videos/search-bar-icons/hevc/house-selected.mov#t=0.001"
-                type="video/mp4; codecs=&quot;hvc1&quot;">
-           <source src="https://a0.muscache.com/videos/search-bar-icons/webm/house-selected.webm" type="video/webm"> -->
-            <!-- </video> -->
-             <video class="home_video " autoplay="" muted="" playsinline="" poster="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240" preload="auto" data-testid="tab-bar-entry-video"> <source src="https://a0.muscache.com/videos/search-bar-icons/hevc/house-twirl-selected.mov" type="video/mp4; codecs=&quot;hvc1&quot;"> <source src="https://a0.muscache.com/videos/search-bar-icons/webm/house-twirl-selected.webm" ype="video/webm"> </video>
-             <!-- <video class="home_video" playsinline="" autoplay muted poster="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240" preload="auto"> -->
-              <!-- <source src="https://a0.muscache.com/videos/search-bar-icons/hevc/house-selected.mov#t=0.001" type="video/mp4; codecs=&quot;hvc1&quot;"> -->
-              <!-- <source src="https://a0.muscache.com/videos/search-bar-icons/webm/house-selected.webm" type="video/webm"></video> 
-               -->
-              <!-- <source src="https://a0.muscache.com/videos/search-bar-icons/hevc/house-twirl-selected.mov" type="video/mp4; codecs=&quot;hvc1&quot;"> -->
-          </span>
-          <span class="text_home">Homes</span>
+
+        <div class="home_outer">
+          <div class="home_container">
+            <span class="home">
+              <video class="home_video " autoplay="" muted="" playsinline=""
+                poster="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240"
+                preload="auto" data-testid="tab-bar-entry-video">
+                <source src="https://a0.muscache.com/videos/search-bar-icons/hevc/house-twirl-selected.mov"
+                  type="video/mp4; codecs=&quot;hvc1&quot;">
+                <source src="https://a0.muscache.com/videos/search-bar-icons/webm/house-twirl-selected.webm"
+                  ype="video/webm">
+              </video></span>
+            <div class="btn_contanier">
+              <span class="text_home">Homes</span>
+            </div>
+          </div>
+          <span class="home_line_bottom"></span>
         </div>
+
         <div class="home_container">
           <span class="Experiences">
             <video class="home_video" playsinline=""
@@ -57,7 +58,7 @@
                 type="video/webm">
             </video>
             <span class="new">NEW</span></span>
-          <span class="text_home">Experiences</span>
+          <span class="text_experience">Experiences</span>
         </div>
         <div class="home_container">
           <span class="Experiences">
@@ -69,7 +70,7 @@
               <source src="https://a0.muscache.com/videos/search-bar-icons/webm/consierge-twirl.webm" type="video/webm">
             </video>
             <span class="new">NEW</span></span>
-          <span class="text_home">Services</span>
+          <span class="text_experience">Services</span>
         </div>
       </div>
   </nav>
@@ -78,13 +79,15 @@
 
   <div class="hero_1">
     <div class="hero_text1">
-      <span class="text1">Popular homes in Bengaluru </span>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
-        focusable="false"
-        style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
-        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28"></path>
-      </svg>
+      <span class="text1">Popular homes in Bengaluru  </span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+          focusable="false"
+          style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+          <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28"></path>
+        </svg>
+    
     </div>
+
   </div>
   <!-- image-1 -->
 
@@ -120,13 +123,13 @@
                 </svg>
               </button>
             </div>
-
           </div>
         </div>
         <div class="appart_text">
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -134,7 +137,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -177,9 +180,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Loft in Richmond Town</span>
+          <span class="appart_text_proper">Flat Haralur</span>
           <div class="rate">
             <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.0</span>
           </div>
         </div>
       </div>
@@ -215,13 +227,21 @@
                 </svg>
               </button>
             </div>
-
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.3</span>
           </div>
         </div>
       </div>
@@ -264,9 +284,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Bengaluru</span>
+          <span class="appart_text_proper">Flat in Haralur</span>
           <div class="rate">
-            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">3.3</span>
           </div>
         </div>
       </div>
@@ -310,7 +339,16 @@
         <div class="appart_text">
           <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">3.9</span>
           </div>
         </div>
       </div>
@@ -352,9 +390,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.9</span>
           </div>
         </div>
       </div>
@@ -396,9 +443,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Loft in Richmond</span>
           <div class="rate">
-            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.8</span>
           </div>
         </div>
       </div>
@@ -439,9 +495,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -496,9 +561,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Gahunje</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -506,7 +572,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -549,9 +615,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Loft in Richmond Town</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -593,9 +669,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Room In Pune</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹2,853 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -637,9 +723,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Pune</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹12,417 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -681,9 +777,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Pune</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,595 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -724,9 +830,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Pune</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,706 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -768,9 +884,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -810,9 +936,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -867,9 +1002,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -877,7 +1013,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -920,9 +1056,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -964,9 +1110,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1012,6 +1168,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1054,9 +1220,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1098,9 +1274,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1142,9 +1328,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1185,9 +1381,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -1242,9 +1447,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -1252,7 +1458,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -1295,9 +1501,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1339,9 +1555,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1387,6 +1613,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1429,9 +1665,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1473,9 +1719,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1519,9 +1775,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1564,9 +1830,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -1590,8 +1865,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-           <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png?im_w=320 1x" media="(min-width: 0px)">
-           <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1415289259570529108/original/f09e3021-067f-4385-bf49-77478ac2d781.png"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -1616,9 +1896,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -1626,7 +1907,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -1638,8 +1919,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-           <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg?im_w=320 1x" media="(min-width: 0px)">
-           <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1379000557908433736/original/fbe36c8a-984e-438c-bed5-056c306e2f21.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
 
           </picture>
         </div>
@@ -1665,9 +1951,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1709,9 +2005,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1757,6 +2063,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1799,9 +2115,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1843,9 +2169,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1863,8 +2199,6 @@
               src="https://a0.muscache.com/im/pictures/hosting/Hosting-1256447564573235255/original/5026d4cf-2b88-44b7-957e-45a159ffaef6.jpeg?im_w=720"
               data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1256447564573235255/original/5026d4cf-2b88-44b7-957e-45a159ffaef6.jpeg"
               style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
-
-
           </picture>
         </div>
         <div class="first_grid">
@@ -1889,9 +2223,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -1934,9 +2278,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -1960,9 +2313,14 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-            <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg?im_w=320 1x" media="(min-width: 0px)">
-          <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
-          
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1411615243808363308/original/012b494b-80a6-4d86-96b6-40de654b331e.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+
           </picture>
         </div>
         <div class="first_grid">
@@ -1987,9 +2345,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -1997,7 +2356,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -2009,8 +2368,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-            <source srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg?im_w=320 1x" media="(min-width: 0px)">
-            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1408350578634072065/original/7d7a0948-3163-4589-afe5-72a91d3c70bd.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -2035,9 +2399,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2079,9 +2453,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2127,6 +2511,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2169,9 +2563,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2213,9 +2617,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2257,9 +2671,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2300,15 +2724,24 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
     </div>
   </div>
-   <!-- seventh  main part 7 -->
+  <!-- seventh  main part 7 -->
 
   <div class="hero_1">
     <div class="hero_text1">
@@ -2327,8 +2760,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-           <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg?im_w=320 1x" media="(min-width: 0px)">
-           <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1343294163259307781/original/5ce7bd81-f3da-483b-b856-cb0bc3529dbb.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -2356,6 +2794,7 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -2363,7 +2802,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -2375,8 +2814,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-           <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg?im_w=320 1x" media="(min-width: 0px)">
-           <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0OTE5NDg5MzY3ODM4OTMzOQ%3D%3D/original/01b09d3c-749b-4e4a-acf5-c93f32faf9e7.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -2401,9 +2845,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Loft in Richmond Town</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2443,9 +2897,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2491,6 +2955,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2532,9 +3006,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2576,9 +3060,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2620,9 +3114,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2671,7 +3175,7 @@
       </div>
     </div>
   </div>
-   <!-- eigth main part 8-->
+  <!-- eigth main part 8-->
   <div class="hero_1">
     <div class="hero_text1">
       <span class="text1">Check out homes in Dehradun</span>
@@ -2689,8 +3193,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-            <source srcset="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg?im_w=320 1x" media="(min-width: 0px)">
-            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-743071232533526986/original/717e233c-71da-4ab9-b65c-a4b0e5bcaa7a.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -2715,9 +3224,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -2725,7 +3235,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -2737,8 +3247,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-      <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg?im_w=320 1x" media="(min-width: 0px)">
-      <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-946764199149196620/original/7975da1c-629f-43d6-b0e5-511d27ae8cdd.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -2763,9 +3278,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2807,9 +3332,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2855,6 +3390,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2897,9 +3442,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2941,9 +3496,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -2961,8 +3526,6 @@
               src="https://a0.muscache.com/im/pictures/hosting/Hosting-1256447564573235255/original/5026d4cf-2b88-44b7-957e-45a159ffaef6.jpeg?im_w=720"
               data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1256447564573235255/original/5026d4cf-2b88-44b7-957e-45a159ffaef6.jpeg"
               style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
-
-
           </picture>
         </div>
         <div class="first_grid">
@@ -2983,13 +3546,22 @@
                 </svg>
               </button>
             </div>
-
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3032,9 +3604,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -3058,8 +3639,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-            <source srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg?im_w=320 1x" media="(min-width: 0px)">
-            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1415226987468705008/original/e386db89-9ce1-4a1f-9de2-8c7e2d44357e.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -3084,9 +3670,10 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Benaulim</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,693 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -3094,7 +3681,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -3106,8 +3693,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-         <source srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg?im_w=320 1x" media="(min-width: 0px)">
-         <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1414536278893453153/original/ee312f9f-ed9b-4dc9-97d5-fc4fec0a4286.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -3132,9 +3724,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat In south Goa</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹3,424 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3176,9 +3778,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3224,6 +3836,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3266,9 +3888,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3310,9 +3942,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3356,9 +3998,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3401,9 +4053,18 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
@@ -3427,8 +4088,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-            <source srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg?im_w=320 1x" media="(min-width: 0px)">
-            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-1364366636626500583/original/bf41a76d-bf7e-41df-8803-38dbfb8ac4a0.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -3456,6 +4122,7 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
             <span class="star">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                 focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
@@ -3463,7 +4130,7 @@
                   d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
                 </path>
               </svg>
-              <!-- <span class="rating">5.0</span>  -->
+              <span class="rating">5.0</span>
             </span>
           </div>
         </div>
@@ -3475,8 +4142,13 @@
       <div class="first_img_sub_property">
         <div class="first_img_sub_property_1">
           <picture>
-           <source srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg?im_w=320 1x" media="(min-width: 0px)">
-           <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg?im_w=720" data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg" style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
+            <source
+              srcset="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg?im_w=320 1x"
+              media="(min-width: 0px)">
+            <img class="first_svg" aria-hidden="true" alt="" elementtiming="LCP-target"
+              src="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg?im_w=720"
+              data-original-uri="https://a0.muscache.com/im/pictures/hosting/Hosting-1019159129263553072/original/6b5c4805-fd0e-421a-8f9a-900f0ec5c3c2.jpeg"
+              style="--dls-liteimage-object-fit: cover; --dls-liteimage-object-position: center;">
           </picture>
         </div>
         <div class="first_grid">
@@ -3501,9 +4173,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Loft in Richmond Town</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹8,217 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3543,9 +4225,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Apartment in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹6,504 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3591,6 +4283,16 @@
           <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3632,9 +4334,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,250 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3676,9 +4388,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flate in Bengaluru</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
-            <span class="rate_text">₹5,044 for 2 nights</span>
+            <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3720,9 +4442,19 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Koramangala</span>
+          <span class="appart_text_proper">Apartment in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹3,150 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">5.0</span>
+            </span>
           </div>
         </div>
       </div>
@@ -3763,15 +4495,140 @@
           </div>
         </div>
         <div class="appart_text">
-          <span class="appart_text_proper">Flat in Padmanabha Nagar</span>
+          <span class="appart_text_proper">Flat in Bengaluru</span>
           <div class="rate">
             <span class="rate_text">₹7,883 for 2 nights</span>
+            <span class="dot">.</span>
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                focusable="false" style="display: block; height: 8px; width: 8px; fill: currentcolor;">
+                <path fill-rule="evenodd"
+                  d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z">
+                </path>
+              </svg>
+              <span class="rating">4.4</span>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="footer">
+    <h2 class="foot_head">Inspiration for future getaways</h2>
+    <div class="uniqe_cat">
+      <div class="under_line">
+        <div class="btn_contanier">
+          <button class="unique">Unique stays</button>
+          <span class="line_bottom"></span>
+        </div>
+        <button class="category">Categories</button>
+      </div>
+    </div>
   
+  <div class="uniqe_list">
+    <ul class="uniqe_sub_list" >
+    <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Yurt Rentals</span>
+         United States
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Yurt Rentals</span>
+         United Kingdom
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Castle Rentals</span>
+        United States
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Houseboats</span>
+         United States
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Holiday Caravans</span>
+         United Kingdom
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Private Island Rentals</span>
+         United States
+         </a>
+          </li>
+           <li>
+      <a class="uniqe_list_property">
+        <span class="Yurt_rentals">Farm Houses</span>
+         United States
+         </a>
+          </li>
+           <li>
+      <button class="show_btn">
+      <span>Show more</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;"><path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12"></path></svg>
+      
+    </button>
+          </li>
+          </div>
+          <div class="section">
+            <section class="section_support">
+              <h3 class="support">Support</h3>
+              <ul class="support_list">
+                <li>
+                <a class="Help_Centre">Help Centre</a>
+               </li>
+                 <li>
+                <a class="Help_Centre">AirCover</a>
+               </li>
+                  <li>
+                <a class="Help_Centre">Anti-discrimination</a>
+               </li>
+                  <li>
+                <a class="Help_Centre">Disability support</a>
+               </li>
+                  <li>
+                <a class="Help_Centre">Cancellation options</a>
+               </li>
+                  <li>
+                <a class="Help_Centre">Report neighbourhood concern</a>
+               </li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+              </ul>
+
+            </section>
+
+          </div>
+
+
+
+
+
+
+
+
+
+    </ul>
+    
+</div>
+
 
 
 

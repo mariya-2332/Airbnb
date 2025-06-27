@@ -25,8 +25,7 @@ body{
     z-index:1;
 }
 .nava_child2{
-    margin-inline: 16px;
-    margin-top:12px;
+    margin: 12px 24px 0px;
     align-items:center;
     grid-template-columns: minmax(0,1fr);
     position:relative;
@@ -42,7 +41,7 @@ body{
     transition: margin-inline-end 200ms cubic-bezier(0.2,0,0,1);
     display:grid;
     color:#222222;
-    min-height:54px;
+    min-height:56px;
 }
 .search_but{
     align-items:center;
@@ -71,6 +70,7 @@ body{
     text-align:center;
     overflow:hidden;
     max-width:100%;
+    margin-bottom: 2px;
     display:grid;
     align-items:center;
     font-weight: 500;
@@ -88,8 +88,8 @@ body{
 }
 .Experiences{
     align-items: flex-start;
-    margin-left: 16px;
-    display: flex;
+   display: flex;
+   position: relative;
 
 }
 .home_container{
@@ -98,10 +98,11 @@ body{
     flex-direction: column;
     min-width: 68px;
     display: flex;
+    margin: 4px 0 6px 0;
 }
 .home-service_property{
 
-padding:16px 56px 0px 56px ;
+padding:14px 56px 0px 56px ;
 justify-content: space-between; 
 align-items: baseline;
 display: flex;
@@ -110,7 +111,8 @@ position: relative;
 .home{
 display: flex;
 align-items:center;
-margin: 10px;
+ margin: 4px 0 6px 0; 
+ /* margin: 10px;  */
 
 }
 
@@ -139,6 +141,20 @@ margin-top: 8px;
 position: relative;
 
 } 
+.home_line_bottom{
+display: flex;
+align-items:start;
+flex-direction: column;
+justify-content:start;
+border-bottom:3px solid black;
+width: 40px;
+border-radius:20% ;
+}
+.home_outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .text_home{
     position: relative;
     line-height: 10px;
@@ -150,13 +166,30 @@ position: relative;
     font-weight: 600;
 
 }
+.text_experience{
+    position: relative;
+    line-height: 10px;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    color:#6A6A6A;
+    display: block;
+    font-family:"extrabold";
+    font-weight:400;
+
+}
 .new{
+    position:absolute ;
     padding: 3px 6px;
     font-size: 8px;
+    font-weight: 700;
     background: linear-gradient(357.5deg, #3e567c 1.59%, #3a5475 21.23%, #2d3c5b 58.6%, #809dc0 97.4%);;
     border-radius:10px 10px 10px 2px; 
+    left: 100%;
+    top: -1px;
     color:#FFFFFF;
-    font-family:"normal";
+    font-family:"extrabold";
+    box-shadow: 0 0.953955px 1.90791px rgba(60, 77, 107, 0.25), 0 3.81582px 5.72373px rgba(60, 77, 107, 0.25), inset 0 0 2px 0.5px #001c40, inset 0 -1px 3px #d7ebff;
+    line-height: 11.44px;
  
 }
 .hero_1{
@@ -164,19 +197,21 @@ display: grid;
 
 }
 .hero_text1{
-    margin-inline: 24px;
-    justify-content: space-between;
+    /* margin-inline: 24px; */
+    /* justify-content: space-between; */
     align-items: center;
-    margin-block-end: 14px;
-    margin-block-start:24px;
+    /* margin-block-end: 14px;
+    margin-block-start:24px; */
     display: flex;
+    margin: 32px 24px 14px;
 }
 .text1{
   font-weight: 600;  
-  font-family: "normal";
+  font-family:"extrabold";
   font-size:1.125rem ;
   line-height: 1.5rem;
   letter-spacing: -0.01125rem;
+  font-size: 18px;
   
 
 }
@@ -336,24 +371,187 @@ position: relative;
     font-family:"normal" ;
 
 }
-
-
 .star{
  
     align-items: center;
     display:inline-flex;
-   
-
-}
+    column-gap:2.5px;
+   }
 .star.svg{
     
     color: #6A6A6A;
     display: block;
     height: 8px;
     width: 8px;
+}
+.dot{
+color: #c1c1c1;
 
+}
+.footer{
+    background:#F7F7F7 ;
+    padding-inline: 24px;
+    margin-inline: auto;
+    padding-block: 48px;
+    max-width: 1920px;
+}
+.foot_head{
+margin-bottom: 8px;
+line-height: 1.625rem;
+font-size:22px;
+font-weight: 500;
+margin-top: 0;
+letter-spacing: -0.01375rem;
+font-family: "extrabold";
+
+}
+.uniqe_cat{
+position: relative;
+margin-inline:-12px ;
+padding-inline:12px ;
+overflow: auto;
+}
+.under_line{
+display: flex;
+}
+.unique{
+    margin-left:-10px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding: 10px;
+    line-height:1.125rem;
+    font-size:0.875rem;
+    font-weight:500;
+    font-family:"extrabold";
+    border: none;
+    color: #222222;
+    position: relative;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+.line_bottom{
+border-bottom:2.5px solid black;
+width: 80px;
+}
+.btn_contanier{
+
+display: flex;
+align-items:start;
+flex-direction: column;
+justify-content:start;
 
 }
 
+.category{
+color:#6A6A6A;
+position: relative;
+background: transparent;
+line-height:1.125rem;
+font-size:0.875rem;
+border-radius: 8px;
+font-weight:500;
+font-family:"extrabold";
+border:none;
 
+}
+.uniqe_list{
+    padding-top: 32px;
+}
+.uniqe_sub_list{
+grid-template-columns:159.752px 159.752px ;
+row-gap: 24px;
+column-gap: 8px;
+margin: 0;
+padding: 0;
+display: grid;
+list-style: none;
+}
+.uniqe_list_property{
+   flex-direction: column;
+    color: #6A6A6A;
+    display: flex;
+    overflow: hidden;
+    align-items:flex-start;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+    justify-content: center;
+    font-family: "extrabold";
+}
+.Yurt_rentals{
+font-weight: 500;
+color: #222222;
+font-family:"extrabold";
+font-size:14px;
+
+}
+
+.show_btn{
+    align-items: center;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family:"normal" ;
+    text-align: center;
+  border: none;
+  background: transparent;
+  gap: 4px;
+  padding: 0px;
+  margin: 0px;
+  color: #222222;
+  display: flex;
+  position: relative;
+
+}
+.section{
+    max-width: 1920px;
+    grid-template-columns:  repeat(4, minmax(0, 1fr));
+    column-gap: 16px;
+    width: 100%;
+    display: grid;
+    padding-inline: 24px;
+
+}
+.section_support{
+border-top: 0;
+grid-column: 1 / -1;
+padding-block: 24px;
+
+}
+.support{
+margin-bottom: 16px;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+font-family:"extrabold" ;
+margin-bottom: 16px;
+margin-block-end: 16px;
+
+}
+.support_list{
+
+margin: 0;
+padding: 0;
+gap: 16px;
+list-style: none;
+display: grid;
+}
+.Help_Centre{
+line-height: 1.125rem;
+font-size: 0.875rem;
+border-radius: 2px;
+font-weight: 400;
+font-family: "extrabold";
+position: relative;
+text-wrap: nowrap;
+
+
+
+
+}
     
